@@ -40,3 +40,23 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## A. Dependencies
+#### A.1. Python
+[Download and install the python](https://www.python.org/downloads/). 
+
+#### A.2. Docker Desktop
+Required to install Docker Desktop to create containers for individual microservices. Refer the following links for instructions 
+* [macOS](https://docs.docker.com/docker-for-mac/install/), 
+* [Windows 10 64-bit: Pro, Enterprise, or Education](https://docs.docker.com/docker-for-windows/install/), 
+* [Windows  10 64-bit Home](https://docs.docker.com/toolbox/toolbox_install_windows/). 
+* You can find installation instructions for other operating systems at:  https://docs.docker.com/install/
+
+#### A.3. Kubernetes 
+[Install Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) - For Linux/macOS
+
+#### A.4. AWS account to access AWS Lambda
+You'll need an [AWS account](https://aws.amazon.com/free/?all-free-tier.&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) to get started with [AWS Lambda](https://aws.amazon.com/lambda/), which is a serverless computing platform on cloud.  
+
+#### A.5. An account with Circle CI
+You may sign up on [CircleCI.com](https://circleci.com/signup/) with your GitHub credentials. 
