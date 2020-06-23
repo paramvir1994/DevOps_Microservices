@@ -1,3 +1,7 @@
+
+
+### Output from `kubectl logs app`
+
 [2020-06-23 01:19:51,491] INFO in app: JSON payload:
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 [2020-06-23 01:19:51,504] INFO in app: Inference payload DataFrame:
@@ -11,3 +15,7 @@
 [2020-06-23 01:19:51,520] INFO in app: Output Prediction value:
 [20.35373177134412]
 127.0.0.1 - - [23/Jun/2020 01:19:51] "POST /predict HTTP/1.1" 200 -
+
+### Output from `kubectl get pods`
+NAME   READY   STATUS    RESTARTS   AGE
+app    1/1     Running   0          24m
